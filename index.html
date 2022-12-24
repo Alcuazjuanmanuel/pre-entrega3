@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>Vamos la 8. El mejor glamping del Delta</title>
+</head>
+<body>
+<header >
+    
+    <h1>Glamping Delta deluxe</h1>
+    <div class="carrito d-flex justify-content-end">
+      <button type="button" class="btn btn-primary">
+        Adicionales <span class="badge bg-secondary">4</span>
+      </button>
+    </div>
+
+   
+
+</header>
+<main>
+  <!-- FOTOS DE LAS HABITACIONES -->
+<div class="gallery">
+  <img src="./assets/imagenes/dorm1.jpg" alt="">
+  <img src="./assets/imagenes/cocina.jpg" alt="">
+  <img src="./assets/imagenes/dorm3.jpg" alt="">
+  <img src="./assets/imagenes/toilette1.jpg" alt="">
+  <img src="./assets/imagenes/dorm5.jpg" alt="">
+
+</div>
+<!-- OPCIONALES PARA AGREGAR AL CARRITO -->
+<h2>Adicionales</h2>
+<div class="adicionales d-flex">
+<div class="card">
+  <img src="./assets/imagenes/masajes.jpg" alt="" class="card__img">
+  <div class="card__data">
+      <h3 class="card__title">Masajes</h3>
+      <p class="card__desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam quod dignissimos modi</p>
+      
+      <button class="card__btn">Agregar </button>
+  </div>
+
+</div>
+
+<div class="card">
+  <img src="./assets/imagenes/sauna.jpg" alt="" class="card__img">
+  <div class="card__data">
+      <h3 class="card__title">Sauna</h3>
+      <p class="card__desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam quod dignissimos modi</p>
+      <button class="card__btn">Agregar</button>
+  </div>
+
+</div>
+
+<div class="card">
+  <img src="./assets/imagenes/piscina.jpg" alt="" class="card__img">
+  <div class="card__data">
+      <h3 class="card__title">Piscina</h3>
+      <p class="card__desciption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam quod dignissimos modi</p>
+      <button class="card__btn">Agregar</button>
+  </div>
+
+</div>
+</div>
+<!-- INICIO FORMULARIO -->
+<div class="container">
+  <div class="container">
+    <h2> CONTACTO</h2>
+  </div>
+  <form id="formulario" action="/redireccion">
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label"
+      >Apellido y Nombre</label
+      >
+      <input type="text" class="form-control" id="nombre" />
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label"
+      >Email</label
+      >
+      <input type="text" class="form-control" id="correo" />
+    </div>
+    <button type="submit" class="btn btn-outline-success">
+      Enviar 
+    </button>
+  </div>
+</form>
+
+<!-- ACA SE MUESTRAN LOS DATOS -->
+<div class="container">
+  <div class="datos"></div>
+</div>
+  
+</main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+   <script src="./proyecto.js"></script> 
+</body>
+</html>

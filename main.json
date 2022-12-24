@@ -1,0 +1,31 @@
+{
+   "habitaciones": [
+     {
+        "id": 1 ,
+        "tipo": "doble",
+        "maxPers":2 ,
+        "metrosCuadrados":30 ,
+        "aire":true ,
+        "ducha": "escocesa",
+        "precio": 500
+    },
+    {
+        "id": 2,
+        "tipo": "cuadruple",
+        "maxPers":4 ,
+        "metrosCuadrados":45 ,
+        "aire":true ,
+        "ducha": "bañera",
+        "precio": 900
+    },
+    {
+        "id": 3 ,
+        "tipo": "duplex",
+        "maxPers": 8 ,
+        "metrosCuadrados":100 ,
+        "aire":true ,
+        "ducha": "jacuzzi",
+        "precio": 1300
+    }
+]
+}
